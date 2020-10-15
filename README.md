@@ -4,7 +4,7 @@ This project showcases an AEM Implementation that leverages the Digital Foundati
 implementation patterns. It's implemented by [Initialyze Inc](https://www.initialyze.com) and submitted for 
 consideration in the [Digital Foundation Blueprint: Lean Code Contest](https://solutionpartners.adobe.com/home/news/2020/09/digital_foundation_b.html)
 
-The following [implementation design and reference instructions](https://github.com/initialyze/wknd-muzik/Implementation-Design-Reference.pdf) provide more details about this implementation. 
+The following [implementation design and reference instructions](https://github.com/initialyze/wknd-muzik/blob/master/Implementation-Design-Reference.pdf) provide more details about this implementation. 
 
 **TESTED WITH**
 * Adobe AEM 6.5 (Service Pack 6)
