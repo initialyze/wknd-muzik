@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:isLanguageRoot="true"
+        cq:lastModified="{Date}2020-10-15T12:19:13.314-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2020-10-15T12:19:00.972-07:00"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        cq:translationSourcePath="/content/wknd-muzik/language-masters/en"
+        jcr:language="fr"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="fr"
+        sling:resourceType="wknd-muzik/components/page"
+        pageTitle="WKND Muzik">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/container"
+                    layout="responsiveGrid">
+                    <teaser
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd-muzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser>
+                    <teaser_copy
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd-muzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy>
+                    <teaser_copy_1579324932
+                        jcr:description="&lt;p>Don't stop half way, go for the top!&lt;/p>&#xd;&#xa;"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Epic Journey"
+                        sling:resourceType="wknd-muzik/components/teaser"
+                        actionsEnabled="false"
+                        descriptionFromPage="false"
+                        textIsRich="true"
+                        titleFromPage="false">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                offset="0"
+                                width="4"/>
+                        </cq:responsive>
+                    </teaser_copy_1579324932>
+                    <helloworld
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wknd-muzik/components/helloworld"
+                        text="lalala :)"/>
+                </container>
+            </container>
+        </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/image"/>
+    </jcr:content>
+    <home-page/>
+</jcr:root>

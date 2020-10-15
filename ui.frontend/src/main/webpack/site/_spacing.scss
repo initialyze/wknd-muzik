@@ -1,0 +1,41 @@
+/*
+==> SPACING
+Inset (padding evenly)
+Inset Squish (cover content - 1:2 ratio)
+Inset Stretch (cover content - 2:1 ratio)
+Stack (Margin down)
+Inline (Vertical margin right);
+*/
+.space {
+  &-inset {
+    @each $token_key, $num_value in $space_tokens {
+      &--#{$token_key} {
+        padding: #{$num_value} !important;
+      }
+    };
+
+    @each $token_key, $num_value in $space_tokens {
+      &-squish--#{$token_key} {
+        padding: #{$num_value} #{$num_value*2} !important;
+      }
+    };
+
+    @each $token_key, $num_value in $space_tokens {
+      &-stretch--#{$token_key} {
+        padding: #{$num_value * 2} #{$num_value} !important;
+      }
+    }
+  }
+
+  @each $token_key, $num_value in $space_tokens {
+    &-stack--#{$token_key} {
+      margin-bottom: #{$num_value} !important;
+    }
+  };
+
+  @each $token_key, $num_value in $space_tokens {
+    &-inline--#{$token_key} {
+      margin-right: #{$num_value} !important;
+    }
+  };
+}

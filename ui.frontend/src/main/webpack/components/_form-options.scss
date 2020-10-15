@@ -1,0 +1,106 @@
+.cmp-form-options {
+    display: flex;
+    flex-direction: column;
+}
+.cmp-form .cmp-title__text,
+.cmp-form-options__label,
+.cmp-form-options__legend {
+    @extend .h5;
+    font-weight: bold;
+    letter-spacing: 2.8px;
+    @extend .space-stack--lg;
+}
+.cmp-form-options__field-description {
+    font-size: $p1;
+    margin-left: $space-md + $space-md;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: -30px;
+        width: 18px;
+        height: 18px;
+        border-radius: $border-radius-base;
+        border: solid 2px $black;
+        @media (prefers-color-scheme: dark) {
+            border-color: $white;
+        }
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: -26px;
+        width: 10px;
+        height: 10px;
+        border-radius: $border-radius-base;
+    }
+    & > * {
+        display: inherit;
+    }
+}
+.cmp-form-options__field[type=radio] {
+    display: none;
+}
+.cmp-form-options__field:checked {
+    + .cmp-form-options__field-description {
+        &:after {
+            background-color: $blue;
+        }
+    }
+}
+.cmp-form-options--radio {
+    @extend .space-stack--xl;
+}
+// Dropdown
+.cmp-form-options--drop-down {
+    @extend .space-stack--lg;
+}
+.cmp-form-options__field--drop-down {
+    display: none;
+}
+.cmp-custom-select {
+    position: relative;
+    &__selected {
+        @extend .cmp-form-text__text ;
+        appearance: none;
+        background: url('../resources/images/icon-down.png') no-repeat scroll 95% center;
+        cursor:pointer;
+        &:hover {
+            border-color: $blue;
+        }
+    }
+    &__options {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        color: $black;
+        font-size: $p1;
+        border: solid 1px $black;
+        border-radius: $border-radius-base;
+        background-color: $color-background;
+        @media (prefers-color-scheme: dark) {
+            border-color: $white;
+            color: $white;
+            background-color: $color-background-dark;
+        }
+    }
+    &__option {
+        @extend .space-inset--md;
+        cursor: pointer;
+        &:first-child {
+            color: lighten($color: $black, $amount: 30);
+            background: url('../resources/images/icon-up.png') no-repeat scroll 95% center;
+            @media (prefers-color-scheme: dark) {
+                color: darken($color: $white, $amount: 30);
+            }
+        }
+    }
+    &.show {
+        .cmp-custom-select__options {
+            display: block;
+        }
+    }
+}

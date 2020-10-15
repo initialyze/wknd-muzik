@@ -1,0 +1,39 @@
+.cmp-form-button {
+    @extend .cmp-button;
+    &--lg {
+        .cmp-form-button {
+            @extend .cmp-button--lg;
+        }
+    }
+    &--sm {
+        .cmp-form-button {
+            @extend .cmp-button--sm;
+        }
+    }
+    &--xs {
+        .cmp-form-button {
+            @extend .cmp-button--xs;
+        }
+    }
+    &--default {
+        .cmp-form-button {
+            @extend .cmp-button--default;
+        }
+    }
+    &--outline-default {
+        .cmp-form-button {
+            @extend .cmp-button--outline-default;
+        }
+    }
+    &--outline-white {
+        .cmp-form-button {
+            @extend .cmp-button--outline-white;
+        }
+    }
+    &--block {
+        .cmp-form-button {
+            width: 100%;
+            display: block;
+        }
+    }
+}

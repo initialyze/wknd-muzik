@@ -1,0 +1,14 @@
+<sly data-sly-use.video="com.initialyze.wknd.muzik.core.models.EmbedVideoFromDAM"
+     data-sly-use.commonsTemplates="core/wcm/components/commons/v1/templates.html">
+     <video width="${video.width}" height="${video.height}"
+           data-sly-list.source="${video.sources}"
+           data-sly-attribute.poster="${video.posterImage}"
+           data-sly-attribute.controls="${!video.hideControls}"
+           data-sly-attribute.autoplay="${video.autoplayEnabled}"
+           data-sly-attribute.loop="${video.loopEnabled}">
+        <source src="${source.src}" type="${source.type}"/>
+     </video>
+     <span class="cmp-button__icon cmp-button__icon--play" data-cmp-is="play-video-btn" data-cmp-hook-playvideo="play">${'Play' @ i18n}</span>
+</sly>
+<sly data-sly-call="${commonsTemplates.placeholder @ isEmpty=video.sources.size <1, classAppend='cmp-embed'}"></sly>
+

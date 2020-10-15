@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    cq:adobeTargetExportFormat="html"
+    cq:allowedTemplates="[/conf/wknd-muzik/settings/wcm/templates/(?!page-).*,/libs/cq/experience-fragments/components/experiencefragment/template]"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="WKND Muzik Fragments">
+    <language-masters/>
+    <us/>
+</jcr:root>

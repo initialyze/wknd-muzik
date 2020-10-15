@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/wknd-muzik"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-10-15T12:19:01.196-07:00"
+        cq:lastModifiedBy="translation-job-service"
+        cq:lastTranslationUpdate="{Date}2020-10-15T12:19:01.196-07:00"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/home-page"
+        cq:translationSourcePath="/content/wknd-muzik/language-masters/en/home-page/blog"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="BLOG"
+        sling:resourceType="wknd-muzik/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container">
+            <container
+                jcr:lastModified="{Date}2020-10-07T15:17:49.117+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container"
+                layout="responsiveGrid"/>
+            <container_161607354
+                jcr:created="{Date}2020-10-07T15:18:36.705+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-10-07T15:18:41.869+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

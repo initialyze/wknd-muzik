@@ -1,0 +1,21 @@
+// import bootstrap functions, variables and mixins so that we may leverage them
+@import "~bootstrap/scss/functions";
+
+// global mixin being used across the site.
+@import "~bootstrap/scss/mixins";
+
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+
+//import bootstrap explicit piecess
+@import '../vendor/bootstrap/bootstrap-explicit-pieces';
+
+
+@import 'color';
+@import 'spacing';
+@import 'typography';
+@import 'base';
+@import '../components/**/*.scss';
+@import './styles/*.scss';
+@import 'typography';

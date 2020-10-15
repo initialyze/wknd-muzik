@@ -1,0 +1,47 @@
+.cmp-navigation {
+    .cmp-navigation__item
+    {
+        a {
+            color: $color-foreground;
+            text-decoration: none;
+
+            @media (prefers-color-scheme: dark) {
+                color: $color-foreground-dark;
+            }
+        }
+
+
+        line-height:$primary-nav-line-height;
+    }
+    &--primary{
+        > .cmp-navigation{
+            text-align: center;
+            font-size: $primary-nav-font-size;
+            letter-spacing: 2.4px;
+            font-weight: bold;
+
+            a {
+                color: $color-background;
+            }
+
+            .cmp-navigation__item {
+                display : inline-block;
+                padding: 1rem;
+                margin-right: 1.5rem;
+
+            }
+        }
+    }
+    &--vertical{
+        > .cmp-navigation{
+            font-size : $vertical-nav-font-size;
+            .cmp-navigation__group{
+                padding-left : 0;
+            }
+            .cmp-navigation__item {
+                display : block;
+                line-height: 2.57;
+            }
+        }
+    }
+}

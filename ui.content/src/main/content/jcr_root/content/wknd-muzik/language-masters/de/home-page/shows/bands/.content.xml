@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-10-15T12:21:30.616-07:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        jcr:description="See your favorite bands take stage. We stream 52,724 band shows per year."
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Bands"
+        jcr:uuid="a853fb0c-0aba-4d1e-a73b-ed8a59dde168"
+        sling:resourceType="wknd-muzik/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/image"
+            fileReference="/content/dam/wknd-muzik/en/images/musician-types/Photo 6.png"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3146ad83-47bc-4d9a-9b57-952c7a817311">
+    <jcr:content
+        cq:name="AdobeStock_-7.png"
+        cq:parentPath="/content/dam/wknd-muzik/en/images/banner-images"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2020-10-14T10:26:06.381-07:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}32"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c148 79.164050, 2019/10/01-18:03:16        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:dam=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;   dam:Physicalheightininches=&quot;-1.0&quot;&#xa;   dam:Physicalwidthininches=&quot;-1.0&quot;&#xa;   dam:Fileformat=&quot;PNG&quot;&#xa;   dam:Progressive=&quot;no&quot;&#xa;   dam:extracted=&quot;2020-10-09T11:41:14.947+05:30&quot;&#xa;   dam:Bitsperpixel=&quot;32&quot;&#xa;   dam:MIMEtype=&quot;image/png&quot;&#xa;   dam:Comments=&quot;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &amp;quot;&amp;gt;&amp;#xA; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot;&amp;#xA;    xmlns:ns1=&amp;quot;http://www.day.com/dam/1.0&amp;quot;&amp;#xA;    xmlns:tiff=&amp;quot;http://ns.adobe.com/tiff/1.0/&amp;quot;&amp;#xA;    xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;&amp;#xA;   ns1:Physicalheightininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Physicalwidthininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Fileformat=&amp;quot;PNG&amp;quot;&amp;#xA;   ns1:Progressive=&amp;quot;no&amp;quot;&amp;#xA;   ns1:extracted=&amp;quot;2020-10-08T20:46:04.286+05:30&amp;quot;&amp;#xA;   ns1:Bitsperpixel=&amp;quot;32&amp;quot;&amp;#xA;   ns1:MIMEtype=&amp;quot;image/png&amp;quot;&amp;#xA;   ns1:Physicalwidthindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Physicalheightindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Numberofimages=&amp;quot;1&amp;quot;&amp;#xA;   ns1:Numberoftextualcomments=&amp;quot;0&amp;quot;&amp;#xA;   ns1:sha1=&amp;quot;38905921ee4a1d6556ed4c19b127b39f9b85f552&amp;quot;&amp;#xA;   ns1:size=&amp;quot;889536&amp;quot;&amp;#xA;   tiff:ImageLength=&amp;quot;854&amp;quot;&amp;#xA;   tiff:ImageWidth=&amp;quot;1280&amp;quot;&amp;#xA;   dc:format=&amp;quot;image/png&amp;quot;&amp;#xA;   dc:modified=&amp;quot;2020-10-08T20:54:03.261+05:30&amp;quot;/&amp;gt;&amp;#xA; &amp;lt;/rdf:RDF&amp;gt;&amp;#xA;&amp;lt;/x:xmpmeta&amp;gt;&amp;#xA;&amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   dam:Physicalwidthindpi=&quot;-1&quot;&#xa;   dam:Physicalheightindpi=&quot;-1&quot;&#xa;   dam:Numberofimages=&quot;1&quot;&#xa;   dam:Numberoftextualcomments=&quot;1&quot;&#xa;   dam:sha1=&quot;f74e505d42602fb86a93cc2423dd7f5eae5326b5&quot;&#xa;   dam:size=&quot;890563&quot;&#xa;   tiff:ImageLength=&quot;854&quot;&#xa;   tiff:ImageWidth=&quot;1280&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2020-10-08T20:54:03.261+05:30&quot;/>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:extracted="{Date}2020-10-14T10:26:05.521-07:00"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}1"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="182dbf46091f38751419189cea47ce5286eeb44b"
+            dam:size="{Long}892016"
+            dc:format="image/png"
+            dc:modified="{Date}2020-10-08T20:54:03.261+05:30"
+            jcr:lastModified="{Date}2020-10-14T10:26:04.520-07:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}854"
+            tiff:ImageWidth="{Long}1280"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

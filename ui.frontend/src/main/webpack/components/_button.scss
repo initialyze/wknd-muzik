@@ -1,0 +1,218 @@
+.cmp-button {
+    display: inline-block;
+    margin-bottom: 0; // For input.btn
+    font-weight: $btn-font-weight-bold;
+    letter-spacing: 2.8px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    text-decoration: none;
+    cursor: pointer;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    border: 1px solid transparent;
+    @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+/* Button Size */
+.cmp-button--xl {
+    @include button-size($padding-large-vertical, $padding-xlarge-horizontal, $font-size-xlarge, $line-height-large, $btn-border-radius-large);
+    letter-spacing: 3.8px;
+}
+.cmp-button--lg {
+    @include button-size($padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $btn-border-radius-large);
+}
+.cmp-button--sm {
+    @include button-size($padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $btn-border-radius-small);
+}
+.cmp-button--xs {
+    @include button-size($padding-xs-vertical, $padding-xs-horizontal, $font-size-small, $line-height-small, $btn-border-radius-small);
+}
+
+/* Button Variation */
+.cmp-button--default {
+    color: $btn-default-color;
+    background-color: $btn-default-bg;
+}
+.cmp-button--outline-default {
+    color: $btn-default-bg;
+    border: 1px solid $btn-default-bg;
+}
+.cmp-button--outline-white {
+    color: $btn-default-color;
+    border: 1px solid $btn-default-color;
+}
+
+/* Button Component Style Altertion */
+.cmp-btn {
+
+    // Button Color
+    &--default {
+        .cmp-button {
+            @extend .cmp-button--default;
+        }
+    }
+    &--outline-default {
+        .cmp-button {
+            @extend .cmp-button--outline-default;
+        }
+    }
+    &--outline-white {
+        .cmp-button {
+            @extend .cmp-button--outline-white;
+        }
+    }
+    // Button Size
+
+    &--xl {
+        .cmp-button {
+            @extend .cmp-button--xl;
+        }
+    }
+    &--lg {
+        .cmp-button {
+            @extend .cmp-button--lg;
+        }
+    }
+    &--sm {
+        .cmp-button {
+            @extend .cmp-button--sm;
+        }
+    }
+    &--xs {
+        .cmp-button {
+            @extend .cmp-button--xs;
+        }
+    }
+
+    // Button Block 
+
+    &--block {
+        .cmp-button {
+            display: block;
+        }
+    }
+}
+.cmp-button__text {}
+.cmp-button__icon {}
+.cmp-button__icon--email {
+    content: " ";
+    display: inline-block;
+    width: 20%;
+    height: 12px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-material-email.png');
+    background-repeat: no-repeat;
+
+    /* email button text right spacing */
+    + .cmp-button__text {
+        @extend .space-inline--md;
+    }
+}
+
+.cmp-button__icon--facebook {
+    content: " ";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-material-facebook.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+
+}
+
+.cmp-button__icon--instagram {
+    content: " ";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-material-instagram.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+}
+
+.cmp-button__icon--twitter {
+    content: " ";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-material-twitter.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+}
+
+
+.cmp-button__icon--arrow-up {
+    content: " ";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-arrow-up.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+}
+
+.cmp-button__icon--search {
+    content: " ";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-search.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    //filter: invert(100%);
+    //-webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+}
+
+.cmp-button__icon--web {
+    content: " ";
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url('../resources/images/icon-web.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    //filter: invert(100%);
+    //-webkit-filter: invert(100%);
+    @media (prefers-color-scheme: dark) {
+        filter: invert(0%);
+        -webkit-filter: invert(0%);
+    }
+}

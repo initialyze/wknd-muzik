@@ -1,0 +1,79 @@
+.cmp-list {
+}
+.cmp-list__item {
+}
+.cmp-list__item-link {}
+.cmp-list__item-title {}
+.cmp-list__item-date {}
+
+
+.cmp-list--item-card
+{
+  article
+  {
+    position: relative;
+
+    .cmp-list__item-asset
+    {
+      .cmp-image
+      {
+        max-width: 100%;
+        width: unset;
+        img
+        {
+          min-height: 393px;
+          object-fit:cover;
+        }
+      }
+    }
+
+    .cmp-list__item-content
+    {
+      position: absolute;
+      bottom: 0;
+      min-height: 177px;
+      //background: rgba(255,255,255,0.5);
+      //backdrop-filter: blur(5px);
+      backdrop-filter: blur(22px);
+      padding: 30px 15px;
+      color: $color-foreground-dark;
+
+      .cmp-list__item-title
+      {
+        backdrop-filter: unset;
+
+        @extend .h4;
+        display: block;
+        padding-bottom: $space-md;
+      }
+
+      .cmp-list__item-description
+      {
+        display: block;
+        line-height: 1.63;
+        font-size: 16px;
+      }
+
+    }
+  }
+}
+
+.cmp-list--grid-3
+{
+  .cmp-list {
+    padding:0px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: $grid-gutter-width/2;
+    padding-right: $grid-gutter-width/2;
+    margin-left: -$grid-gutter-width/2;
+    margin-right: $grid-gutter-width;
+
+  }
+
+  .cmp-list__item {
+    @include make-col(4);
+    padding: 0px 8px;
+  }
+}

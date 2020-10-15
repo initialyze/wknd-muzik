@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-10T11:41:32.337+05:30"
+        cq:lastModifiedBy="admin"
+        cq:redirectTarget="/content/wknd-muzik/us/EN-US"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="United States"
+        sling:resourceType="foundation/components/redirect"/>
+    <en/>
+    <es/>
+</jcr:root>

@@ -1,0 +1,20 @@
+.cmp-tabs {}
+.cmp-tabs__tablist {
+    @extend .space-stack--xl;
+}
+.cmp-tabs__tab {
+    @extend .cmp-button;
+    @extend .h5;
+    margin-right: $tabs-margin-right;
+    padding: $tabs-padding-inset;
+}
+.cmp-tabs__tab--active {
+    @extend .cmp-button--default;
+    border: none;
+    font-weight: $active-tabs-font-weight;
+    &:focus {
+        outline: none;
+    }
+}
+.cmp-tabs__tabpanel {}
+.cmp-tabs__tabpanel--active {}

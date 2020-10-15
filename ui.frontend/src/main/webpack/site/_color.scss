@@ -1,0 +1,15 @@
+//== Colors Classes
+
+// Background Color
+@each $key, $val in $color-palette  {
+    .#{$key} {
+        background-color: $val !important;
+    }
+}
+
+// Text Color
+@each $key, $val in $color-palette {
+    .text-#{$key} {
+        color: $val !important;
+    }
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Video From DAM Assets"
+    sling:resourceType="granite/ui/components/coral/foundation/container">
+    <items jcr:primaryType="nt:unstructured">
+        <videoPath
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                fieldDescription="Path of Video in the DAM."
+                fieldLabel="Video Asset Path"
+                name="./videoPath"
+                required="{Boolean}true"
+                rootPath="/content/dam"/>
+        <posterImagePath
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                fieldDescription="Poster Image for the Video"
+                fieldLabel="Poster Image Path"
+                name="./posterImagePath"
+                rootPath="/content/dam"/>
+        <width
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+            fieldDescription="Width of the YouTube video player."
+            fieldLabel="Width"
+            name="./width"/>
+        <height
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+            fieldDescription="Height of the YouTube video player."
+            fieldLabel="Height"
+            name="./height"/>
+        <autoplay
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                checked="{Boolean}false"
+                fieldDescription="When checked, videos will autoplay when loaded."
+                name="./autoplay"
+                text="Autoplay"
+                uncheckedValue="false"
+                value="{Boolean}true"/>
+        <loop
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                checked="{Boolean}false"
+                fieldDescription="When checked, video playback will loop upon completion."
+                name="./loop"
+                text="Loop"
+                uncheckedValue="false"
+                value="{Boolean}true"/>
+        <hideControls
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                checked="{Boolean}false"
+                fieldDescription="When checked, the video controls will not be displayed."
+                name="./hideControls"
+                text="Hide Controls"
+                uncheckedValue="false"
+                value="{Boolean}true"/>
+    </items>
+    <granite:data
+        jcr:primaryType="nt:unstructured"
+        cmp-embed-dialog-edit-embeddableoptions="true"
+        cmp-embed-dialog-edit-showhidetargetvalue="wknd-muzik/components/embed/videofromdam"/>
+</jcr:root>

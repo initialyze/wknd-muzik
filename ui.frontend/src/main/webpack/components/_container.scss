@@ -1,0 +1,59 @@
+// 100% wide container at all breakpoints
+.container-fluid {
+  @include make-container();
+}
+
+// Single container class with breakpoint max-widths
+.container-max-widths {
+  @include make-container();
+  @include make-container-max-widths();
+}
+
+.cmp-container {
+
+}
+
+.cmp-container--max-width
+{
+  @extend .container-max-widths;
+  //max-width: map-get($container-max-widths, "default");
+}
+
+.cmp-container--social-icons
+{
+    .button {
+      display: inline;
+
+      .cmp-button {
+        @extend .space-inset-squish--sm;
+      }
+    }
+}
+
+.cmp-container--inline-children >  .cmp-container
+{
+  text-align: right;
+  > * {
+    display: inline-block;
+  }
+}
+
+.cmp-container {
+  /* [Grid Classes] */
+  // 2
+  &--grid-2 .cmp-container > *{
+    display: inline-block;
+    width: 48%;
+    &:first-child {  
+        margin-right: $space-lg;
+    }
+  }
+  // 3
+  &--grid-3 .cmp-container > *{
+    display: inline-block;
+    width: 32%;
+    &:nth-child(2) {  
+        margin: 0 $space-md;
+    }
+  }
+}

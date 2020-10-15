@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2020-10-09T12:03:46.610+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="CONTACT"
+        sling:resourceType="wknd-muzik/components/page"
+        hideInNav="true">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+    <support/>
+    <customer-service/>
+    <get-started-guide/>
+</jcr:root>

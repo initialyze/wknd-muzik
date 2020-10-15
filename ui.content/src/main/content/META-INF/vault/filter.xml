@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-muzik" mode="replace"/>
+    <filter root="/content/wknd-muzik" mode="replace"/>
+    <filter root="/content/dam/wknd-muzik" mode="replace"/>
+    <filter root="/content/experience-fragments/wknd-muzik" mode="replace"/>
+</workspaceFilter>

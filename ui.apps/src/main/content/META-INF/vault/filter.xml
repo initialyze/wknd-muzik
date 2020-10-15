@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/wknd-muzik/clientlibs"/>
+    <filter root="/apps/wknd-muzik/components"/>
+    <filter root="/apps/wknd-muzik/i18n"/>
+    <filter root="/apps/msm/wknd-muzik_blueprint" mode="merge"/>
+</workspaceFilter>

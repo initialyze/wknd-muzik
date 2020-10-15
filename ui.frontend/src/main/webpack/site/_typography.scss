@@ -1,0 +1,22 @@
+
+// Heading Classes
+@each $key, $val in $heading-tokens {
+    .#{$key} {
+        font-size: $val;
+        h1,h2,h3,h4,h5,h6,.cmp-title__text
+        {
+            font-size: $val;
+        }
+    }
+}
+
+// Alignment Classes
+.text-center {
+    text-align: center;
+}
+.text-start {
+    text-align: start;   
+}
+.text-end {
+    text-align: end;   
+}

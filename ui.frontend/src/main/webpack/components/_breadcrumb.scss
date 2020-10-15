@@ -1,0 +1,40 @@
+.cmp-breadcrumb {
+    margin-top: $space-md;
+}
+.cmp-breadcrumb__list {
+    padding-left : $space-md * 5;
+    padding-bottom : $space-lg;
+}
+.cmp-breadcrumb__item {
+    font-size : 12px;
+    span
+    {
+        text-decoration: underline;
+    }
+    &::before{
+        content: " ";
+        background-image: url('../resources/images/icon-arrow-right.png');
+        display: inline-block;
+        background-size: 7px 7px;
+        width:7px;
+        height:7px;
+        filter: invert(100%);
+        @media (prefers-color-scheme: dark) {
+            filter: invert(0%);
+        }
+    }
+    &:first-child{
+        &::before{
+            display: none;
+        }
+    }
+}
+.cmp-breadcrumb__item--active {
+    font-weight : bold;
+}
+.cmp-breadcrumb__item-link {
+    color: $color-foreground;
+    @media (prefers-color-scheme: dark) {
+        color: $color-foreground-dark;
+    }
+}

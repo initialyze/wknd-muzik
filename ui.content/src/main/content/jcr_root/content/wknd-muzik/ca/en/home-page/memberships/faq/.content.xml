@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-10-15T12:14:58.292-07:00"
+        cq:lastModifiedBy="admin"
+        cq:lastRolledout="{Date}2020-10-15T12:14:58.293-07:00"
+        cq:lastRolledoutBy="admin"
+        cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FAQ"
+        sling:resourceType="wknd-muzik/components/page">
+        <root
+            cq:lastRolledout="{Date}2020-10-15T12:14:58.285-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/container">
+            <container
+                cq:lastRolledout="{Date}2020-10-15T12:14:58.290-07:00"
+                cq:lastRolledoutBy="admin"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd-muzik/components/container">
+                <title
+                    cq:lastRolledout="{Date}2020-10-15T12:14:58.292-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/title"/>
+                <container
+                    cq:lastRolledout="{Date}2020-10-15T12:14:58.293-07:00"
+                    cq:lastRolledoutBy="admin"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd-muzik/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

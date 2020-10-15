@@ -1,0 +1,41 @@
+.cmp-title {
+    &--bar
+    {
+        &__center{
+            position: relative;
+            margin: $spacer-em + 0.5 0;
+            .cmp-title__text {
+                margin :0;
+                text-align : center;
+            }
+            &:after {
+                @extend %blue-bar;
+                left:46%;
+            }
+        }
+        &__left{
+            position: relative;
+            margin: $spacer-em + 0.5 0;
+            .cmp-title__text {
+                margin :0;
+            }
+            &:after {
+                @extend %blue-bar;
+            }
+        }
+    }
+    &--bar-hide{
+        margin-top : $spacer-em;
+        margin-bottom :0 ;
+        &:after {
+            content: initial !important;
+        }
+    }
+}
+.cmp-title__link {
+    color: $color-foreground;
+    text-decoration: none;
+    @media (prefers-color-scheme: dark) {
+        color: $color-foreground-dark;
+    }
+}

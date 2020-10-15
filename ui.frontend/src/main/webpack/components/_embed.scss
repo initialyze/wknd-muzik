@@ -1,0 +1,32 @@
+.cmp-embed {
+  height: 541px;
+  width: 1091px;
+  position: relative;
+  &--video {
+    &__center {
+      text-align: -webkit-center;
+    }
+  }
+
+  .cmp-button__icon--play {
+    position: absolute;
+    top: 28%;
+    left: 43%;
+    content: " ";
+    //display: inline-block;
+    width: 157px;
+    height: 157px;
+    //vertical-align: middle;
+    background-image: url('../resources/images/icon-play.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    &.active {
+      display: none;
+    }
+  }
+
+}

@@ -1,0 +1,205 @@
+.cmp-teaser {}
+.cmp-teaser__image {}
+.cmp-teaser__content {}
+.cmp-teaser__pretitle {}
+.cmp-teaser__title {
+}
+
+.cmp-teaser__title-link {}
+.cmp-teaser__description {}
+.cmp-teaser__action-container {}
+.cmp-teaser__action-link {}
+
+/* 
+[Teaser Variations] 
+*/
+.cmp-teaser{
+    /* [Hero] */
+    &--hero {
+        .cmp-teaser{
+            color:       $color-background;
+            position: relative;
+            &__content {
+                position: absolute;
+                top: 57%;
+                left: 8.33%;
+                transform: translateY(-50%);
+            }
+            &__title {
+                position: relative;
+                width: 440px;
+                font-size: $hero-teaser-title-font-size;
+                font-weight: bold;
+                line-height: 1.23;
+                margin-bottom: $space-md * 4;
+                &:after {
+                    @extend %blue-bar;
+                }
+            }
+            &__description
+            {
+                font-size: $p1;
+                margin-bottom: $space-md * 3;
+            }
+            &__action-link {
+               @extend .cmp-button;
+               @extend .cmp-button--default;
+               font-weight: bold;
+            }
+        }
+        .cmp-image__image {
+            height: 780px;
+            object-fit: cover;
+        }
+        &.cmp-teaser--content-left{
+            .cmp-teaser__content {
+                left: 138px;
+            }
+        }
+        &.cmp-teaser--content-right{
+            .cmp-teaser__content {
+                left: initial;
+                right: 138px;
+            }
+        }
+    }
+    /* [Card] */
+    &--card, &--card-hollow {
+        .cmp-teaser {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    &--card {
+        .cmp-teaser {
+            &__image {
+                @extend .space-stack--md;
+            }
+            &__title {
+                font-size: $h3;
+                font-weight: 600;
+            }
+            &__description {
+                font-size: $p1;
+                line-height: 1.63;
+            }
+        }
+    }
+    /* [Card Hollow] */
+    &--card-hollow {
+        .cmp-teaser {
+            border-radius: 16px;
+            border: solid 1px $blue;
+            height: 353px;
+            @extend .space-inset--md;
+            &__pretitle {
+                font-size: $h5;
+                font-weight: bold;
+                letter-spacing: 2.8px;
+                @extend .space-stack--xs;
+            }
+            &__title {
+                font-size: $h3;
+                font-weight: 600;
+                @extend .space-stack--lg;
+            }
+            &__description{
+                font-size: $p1;
+                @extend .space-stack--xl;
+            }
+            &__action-link {
+                @extend .cmp-button; 
+               @extend .cmp-button--outline-default;
+            }
+        }
+    }
+    /* [Block] */
+    &--block {
+        .cmp-teaser {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            &__image {
+                width: 50%;
+                margin-right: 45px;
+            }
+            &__content {
+                width: 50%;
+                align-self: center;
+            }
+            &__title {
+                font-size: $h2;
+                position: relative;
+                margin-bottom: $spacer-em + 1;
+                &:after {
+                    @extend %blue-bar;
+                }
+            }
+            &__description{
+                width: 407px;
+                font-size: $p1;
+            }
+        }
+        /* [Content Alignment] */
+        &.cmp-teaser--content-left {
+            .cmp-teaser {
+                width: 100%;
+                margin: 0;
+                flex-direction: row-reverse;
+                &__image {
+                    width: 55%;
+                    margin-right: 0px;
+                    .cmp-image {
+                        height: 100%;
+                        &__image {
+                            height: 453px;
+                            object-fit: cover;
+                        }
+                    }
+                }
+                &__content {
+                    width: 45%;
+                    align-self: center;
+                    margin-right: 68px;
+                    padding: 0 $space-xl;
+                }
+                &__title {
+                    margin: $spacer-rem 0;
+                }
+            }
+        }
+    }
+    /* [flagged Icon] */
+    &--icon-flag {
+        .cmp-teaser {
+            position: relative;
+            &::before {
+                content: "";
+                position: absolute;
+                top: 23px;
+                left: 0px;
+                right: 0px;
+                width: 31px;
+                height: 24px;
+                margin: 0 auto;
+                border-radius: 100px;
+                background: url('../resources/images/icon-flag.png') no-repeat center;
+                background-color: $blue;
+            }
+        }
+    }
+    /* [Title Heading] */
+    &--title {
+        &-h1 {
+            .cmp-teaser__title {
+                @extend .h1;
+            }
+        }
+        &-h2 {
+            .cmp-teaser__title {
+                @extend .h2;
+            }
+        }
+    }
+}

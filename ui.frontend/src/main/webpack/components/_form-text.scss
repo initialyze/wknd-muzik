@@ -1,0 +1,43 @@
+.cmp-form-text{
+    @extend .space-stack--lg;
+    &__error-msg {
+        display: none;
+        @extend .space-inset--sm;
+        padding-left:14px !important;
+    }
+}
+.cmp-form-text__text {
+    width: 100%;
+    background-color: transparent;
+    box-shadow: none;
+    border: solid 1px $black;
+    border-radius: $border-radius-base;
+    color: $black;
+    font-size: $p1;
+    @extend .space-inset--md;
+    @media (prefers-color-scheme: dark) {
+        border-color: $white;
+        color: $white;
+    }
+    &:focus {
+        outline: none;
+        border-color: $blue;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    &[type=number] {
+        -moz-appearance: textfield;
+    }
+    &.invalid {
+        border-color: $red !important;
+        background: url('../resources/images/Icon-warning.png') no-repeat scroll 95% center;
+        & + .cmp-form-text__error-msg {
+            display: block;
+            color: $red;
+            font-size: $h6;
+        }
+    }
+}
