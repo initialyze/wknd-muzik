@@ -13,10 +13,8 @@ The following [implementation design and reference instructions](https://github.
 * Browser Width: 1280px
 
 **URLS**
-* Author: [http://localhost:4502/content/wknd-muzik/language-masters/en/home-page.html]()
-* Publish: [http://localhost:4503/content/wknd-muzik/us/en/home-page.html]()
-
-
+* Author: [http://localhost:4502/content/wknd-muzik/language-masters/en/home-page.html](http://localhost:4502/content/wknd-muzik/language-masters/en/home-page.html)
+* Publish: [http://localhost:4503/content/wknd-muzik/us/en/home-page.html](http://localhost:4503/content/wknd-muzik/us/en/home-page.html)
 
 ## Features
  
