@@ -9,19 +9,16 @@
         cq:lastTranslationUpdate="{Date}2020-10-15T12:12:14.722-07:00"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/home-page"
         cq:translationSourcePath="/content/wknd-muzik/us/en/home-page"
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Home Page"
         sling:resourceType="wknd-muzik/components/page"
         navTitle="Home">
         <root
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
                 jcr:lastModified="{Date}2020-10-15T12:09:53.858-07:00"
                 jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"
                 layout="simple">
@@ -30,7 +27,6 @@
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-10-15T12:09:53.863-07:00"
                     jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
                     layout="responsiveGrid">
@@ -41,7 +37,6 @@
                         jcr:description="&lt;p>If you can’t fly to Brazil tomorrow night to see your favorite DJ play an epic show, no worries! DJ’s and artists across the globe now offer the ability to stream their show LIVE. &lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.871-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="ATTEND EVERY SHOW"
                         sling:resourceType="wknd-muzik/components/teaser"
@@ -50,11 +45,8 @@
                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/AdobeStock_-6.png"
                         textIsRich="true"
                         titleFromPage="false">
-                        <cq:responsive
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="10"/>
@@ -66,16 +58,12 @@
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.877-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="ALL MUSICIAN TYPES"
                         sling:resourceType="wknd-muzik/components/title"
                         type="h2">
-                        <cq:responsive
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="10"/>
@@ -87,7 +75,6 @@
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.882-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd-muzik/components/list"
                         childDepth="1"
@@ -98,11 +85,8 @@
                         showModificationDate="false"
                         sortOrder="asc"
                         tagsMatch="any">
-                        <cq:responsive
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="10"/>
@@ -115,16 +99,12 @@
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-10-15T12:09:53.888-07:00"
                     jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="SIGN UP FOR MEMBERSHIP!"
                     sling:resourceType="wknd-muzik/components/button"
-                    link="/content/wknd-muzik/us/es/home-page/memberships/sign-in">
-                    <cq:responsive
-                        jcr:mixinTypes="[]"
-                        jcr:primaryType="nt:unstructured">
+                    link="/content/wknd-muzik/us/es/home-page/memberships/sign-up">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             offset="4"
                             width="3"/>
@@ -136,7 +116,6 @@
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2020-10-15T12:09:53.893-07:00"
                 jcr:lastModifiedBy="admin"
-                jcr:mixinTypes="[]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container">
                 <carousel
@@ -144,7 +123,6 @@
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2020-10-15T12:09:53.895-07:00"
                     jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/carousel"
                     autopauseDisabled="false"
@@ -156,7 +134,6 @@
                         jcr:description="&lt;p>Stream all your favorite artists shows on any device, any time. &lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.903-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="LIVE MUSIC FROM HOME."
                         sling:resourceType="wknd-muzik/components/teaser"
@@ -165,11 +142,8 @@
                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/AdobeStock_-17.png"
                         textIsRich="true"
                         titleFromPage="false">
-                        <actions
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <actions jcr:primaryType="nt:unstructured">
                             <item0
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 link="/content/wknd-muzik/us/es/home-page/learn-more"
                                 text="LEARN MORE"/>
@@ -181,7 +155,6 @@
                         jcr:description="&lt;p>Get a better view than any seat with close up shots&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.909-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="SEE ALL THE DETAILS"
                         sling:resourceType="wknd-muzik/components/teaser"
@@ -190,11 +163,8 @@
                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/AdobeStock_-7.png"
                         textIsRich="true"
                         titleFromPage="false">
-                        <actions
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <actions jcr:primaryType="nt:unstructured">
                             <item0
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 link="/content/wknd-muzik/us/es/home-page/learn-more"
                                 text="LEARN MORE"/>
@@ -206,7 +176,6 @@
                         jcr:description="&lt;p>Get behind-the-scene footage before, during and after the event!&lt;/p>&#xd;&#xa;"
                         jcr:lastModified="{Date}2020-10-15T12:09:53.915-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="GO BACKSTAGE"
                         sling:resourceType="wknd-muzik/components/teaser"
@@ -215,11 +184,8 @@
                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/AdobeStock_-12.png"
                         textIsRich="true"
                         titleFromPage="false">
-                        <actions
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <actions jcr:primaryType="nt:unstructured">
                             <item0
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 link="/content/wknd-muzik/us/es/home-page/learn-more"
                                 text="LEARN MORE"/>
@@ -229,7 +195,6 @@
             </container_161607354>
         </root>
         <image
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/image"/>
     </jcr:content>

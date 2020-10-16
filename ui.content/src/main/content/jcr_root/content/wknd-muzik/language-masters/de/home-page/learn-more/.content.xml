@@ -130,7 +130,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser>
@@ -158,7 +158,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_1964341371>
@@ -186,7 +186,7 @@
                                 <actions jcr:primaryType="nt:unstructured">
                                     <item0
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/language-masters/de/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_857221541>

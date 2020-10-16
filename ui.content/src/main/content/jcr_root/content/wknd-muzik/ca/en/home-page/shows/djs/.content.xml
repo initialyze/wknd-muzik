@@ -4,36 +4,36 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-15T12:14:58.660-07:00"
+        cq:lastModified="{Date}2020-10-16T10:27:51.972-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-10-15T12:14:58.661-07:00"
+        cq:lastRolledout="{Date}2020-10-16T10:27:51.973-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
         jcr:description="See your favorite DJ’s take stage. We stream 112,724 DJ shows per year."
         jcr:mixinTypes="[cq:LiveRelationship]"
         jcr:primaryType="cq:PageContent"
-        jcr:title="DJs"
+        jcr:title="World Class DJs"
         sling:resourceType="wknd-muzik/components/page">
         <root
-            cq:lastRolledout="{Date}2020-10-15T12:14:58.652-07:00"
+            cq:lastRolledout="{Date}2020-10-16T10:27:51.950-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                cq:lastRolledout="{Date}2020-10-15T12:14:58.657-07:00"
+                cq:lastRolledout="{Date}2020-10-16T10:27:51.962-07:00"
                 cq:lastRolledoutBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container">
                 <title
-                    cq:lastRolledout="{Date}2020-10-15T12:14:58.659-07:00"
+                    cq:lastRolledout="{Date}2020-10-16T10:27:51.967-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/title"/>
                 <container
-                    cq:lastRolledout="{Date}2020-10-15T12:14:58.660-07:00"
+                    cq:lastRolledout="{Date}2020-10-16T10:27:51.970-07:00"
                     cq:lastRolledoutBy="admin"
                     jcr:mixinTypes="[cq:LiveRelationship]"
                     jcr:primaryType="nt:unstructured"
@@ -42,7 +42,7 @@
             </container>
         </root>
         <image
-            cq:lastRolledout="{Date}2020-10-15T12:14:58.661-07:00"
+            cq:lastRolledout="{Date}2020-10-16T10:27:51.973-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"

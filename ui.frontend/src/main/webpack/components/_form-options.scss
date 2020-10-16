@@ -63,7 +63,8 @@
 .cmp-custom-select {
     position: relative;
     &__selected {
-        @extend .cmp-form-text__text ;
+        @extend .cmp-form-text__text;
+        font-weight: $form-text-pholder-font-weight !important;
         appearance: none;
         background: url('../resources/images/icon-down.png') no-repeat scroll 95% center;
         cursor:pointer;
@@ -89,9 +90,11 @@
     }
     &__option {
         @extend .space-inset--md;
+        font-weight: $form-text-font-weight;
         cursor: pointer;
         &:first-child {
             color: lighten($color: $black, $amount: 30);
+            font-weight: $form-text-pholder-font-weight;
             background: url('../resources/images/icon-up.png') no-repeat scroll 95% center;
             @media (prefers-color-scheme: dark) {
                 color: darken($color: $white, $amount: 30);

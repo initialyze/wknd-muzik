@@ -7,24 +7,19 @@
         cq:lastTranslationUpdate="{Date}2020-10-15T12:12:14.813-07:00"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
         cq:translationSourcePath="/content/wknd-muzik/us/en/home-page/memberships/faq"
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="FAQ"
         sling:resourceType="wknd-muzik/components/page">
         <root
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                jcr:mixinTypes="[]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container">
                 <title
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/title"/>
                 <container
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
                     layout="responsiveGrid"/>

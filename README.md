@@ -14,7 +14,12 @@ The following [implementation design and reference instructions](https://github.
 
 **URLS**
 * Author: [http://localhost:4502/content/wknd-muzik/language-masters/en/home-page.html](http://localhost:4502/content/wknd-muzik/language-masters/en/home-page.html)
-* Publish: [http://localhost:4503/content/wknd-muzik/us/en/home-page.html](http://localhost:4503/content/wknd-muzik/us/en/home-page.html)
+* Publish:
+  1. Homepage - [http://localhost:4503/content/wknd-muzik/us/en/home-page.html](http://localhost:4503/content/wknd-muzik/us/en/home-page.html)
+  2. Learn More - [http://localhost:4503/content/wknd-muzik/us/en/home-page/learn-more.html](http://localhost:4503/content/wknd-muzik/us/en/home-page/learn-more.html)
+  3. Sign Up  - [http://localhost:4503/content/wknd-muzik/us/en/home-page/memberships/sign-up.html](http://localhost:4503/content/wknd-muzik/us/en/home-page/memberships/sign-up.html)
+  3. Confirmation - [http://localhost:4503/content/wknd-muzik/us/en/home-page/memberships/sign-up/confirmation.html](http://localhost:4503/content/wknd-muzik/us/en/home-page/memberships/sign-up/confirmation.html)
+
 
 ## Features
  

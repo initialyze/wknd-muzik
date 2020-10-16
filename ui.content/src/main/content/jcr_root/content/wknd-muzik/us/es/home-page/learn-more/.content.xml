@@ -9,7 +9,6 @@
         cq:lastTranslationUpdate="{Date}2020-10-15T12:12:14.780-07:00"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
         cq:translationSourcePath="/content/wknd-muzik/us/en/home-page/learn-more"
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="LEARN MORE"
         sling:resourceType="wknd-muzik/components/page"
@@ -17,21 +16,17 @@
         navTitle="Learn More"
         pageTitle="Learn More">
         <root
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                jcr:mixinTypes="[]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container">
                 <title
                     jcr:lastModified="{Date}2020-10-15T12:09:54.010-07:00"
                     jcr:lastModifiedBy="admin"
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/title"/>
                 <container
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
                     layout="responsiveGrid">
@@ -40,7 +35,6 @@
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-10-15T12:09:54.019-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd-muzik/components/breadcrumb"
                         disableShadowing="false"
@@ -53,14 +47,10 @@
                         jcr:createdBy="admin"
                         jcr:lastModified="{Date}2020-10-15T12:09:54.021-07:00"
                         jcr:lastModifiedBy="admin"
-                        jcr:mixinTypes="[]"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd-muzik/components/container">
-                        <cq:responsive
-                            jcr:mixinTypes="[]"
-                            jcr:primaryType="nt:unstructured">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 offset="1"
                                 width="10"/>
@@ -71,15 +61,11 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.042-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd-muzik/components/container"
                             layout="responsiveGrid">
-                            <cq:responsive
-                                jcr:mixinTypes="[]"
-                                jcr:primaryType="nt:unstructured">
+                            <cq:responsive jcr:primaryType="nt:unstructured">
                                 <default
-                                    jcr:mixinTypes="[]"
                                     jcr:primaryType="nt:unstructured"
                                     offset="1"
                                     width="10"/>
@@ -91,7 +77,6 @@
                                 jcr:description="&lt;p>See all the details with closeup and backstage footage that allow you to see more than you ever could in a venue seat. &lt;/p>&#xd;&#xa;"
                                 jcr:lastModified="{Date}2020-10-15T12:09:54.051-07:00"
                                 jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="FRONT ROW.  EVERY NIGHT."
                                 sling:resourceType="wknd-muzik/components/teaser"
@@ -108,7 +93,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.054-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="MONTHLY MEMBERSHIP"
                             sling:resourceType="wknd-muzik/components/title"
@@ -119,7 +103,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.056-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd-muzik/components/container">
                             <teaser
@@ -129,7 +112,6 @@
                                 jcr:description="&lt;p>Access to 20 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
                                 jcr:lastModified="{Date}2020-10-15T12:09:54.065-07:00"
                                 jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="$10/month"
                                 sling:resourceType="wknd-muzik/components/teaser"
@@ -138,22 +120,16 @@
                                 pretitle="TIRE 1"
                                 textIsRich="true"
                                 titleFromPage="false">
-                                <cq:responsive
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         offset="0"
                                         width="12"/>
                                 </cq:responsive>
-                                <actions
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <actions jcr:primaryType="nt:unstructured">
                                     <item0
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser>
@@ -164,7 +140,6 @@
                                 jcr:description="&lt;p>Access to 50 shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
                                 jcr:lastModified="{Date}2020-10-15T12:09:54.088-07:00"
                                 jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="$12/month"
                                 sling:resourceType="wknd-muzik/components/teaser"
@@ -173,22 +148,16 @@
                                 pretitle="TIRE 2"
                                 textIsRich="true"
                                 titleFromPage="false">
-                                <cq:responsive
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         offset="0"
                                         width="3"/>
                                 </cq:responsive>
-                                <actions
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <actions jcr:primaryType="nt:unstructured">
                                     <item0
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_1964341371>
@@ -199,7 +168,6 @@
                                 jcr:description="&lt;p>Access to unlimited shows per year on all digital devices.&lt;/p>&#xd;&#xa;"
                                 jcr:lastModified="{Date}2020-10-15T12:09:54.101-07:00"
                                 jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="$15/month"
                                 sling:resourceType="wknd-muzik/components/teaser"
@@ -208,22 +176,16 @@
                                 pretitle="TIRE 3"
                                 textIsRich="true"
                                 titleFromPage="false">
-                                <cq:responsive
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <cq:responsive jcr:primaryType="nt:unstructured">
                                     <default
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         offset="1"
                                         width="11"/>
                                 </cq:responsive>
-                                <actions
-                                    jcr:mixinTypes="[]"
-                                    jcr:primaryType="nt:unstructured">
+                                <actions jcr:primaryType="nt:unstructured">
                                     <item0
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/es/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_857221541>
@@ -234,7 +196,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.114-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="SHOWS YOU DON’T WANT TO MISS"
                             sling:resourceType="wknd-muzik/components/title"
@@ -244,7 +205,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.116-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd-muzik/components/tabs">
                             <item_1
@@ -252,7 +212,6 @@
                                 cq:styleIds="[1602575459883]"
                                 jcr:lastModified="{Date}2020-10-15T12:09:54.124-07:00"
                                 jcr:lastModifiedBy="admin"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Tab 1"
                                 sling:resourceType="wknd-muzik/components/container"
@@ -263,7 +222,6 @@
                                     jcr:createdBy="admin"
                                     jcr:lastModified="{Date}2020-10-15T12:09:54.127-07:00"
                                     jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd-muzik/components/container">
                                     <teaser
@@ -273,7 +231,6 @@
                                         jcr:description="&lt;p>10.21.20&lt;/p>&#xd;&#xa;&lt;p>Listen to smooth and contemporary jazz from award winning artist.&lt;/p>&#xd;&#xa;"
                                         jcr:lastModified="{Date}2020-10-15T12:09:54.135-07:00"
                                         jcr:lastModifiedBy="admin"
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Saxophone Jam "
                                         sling:resourceType="wknd-muzik/components/teaser"
@@ -282,11 +239,8 @@
                                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/Young african-american.png"
                                         textIsRich="true"
                                         titleFromPage="false">
-                                        <cq:responsive
-                                            jcr:mixinTypes="[]"
-                                            jcr:primaryType="nt:unstructured">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
                                             <default
-                                                jcr:mixinTypes="[]"
                                                 jcr:primaryType="nt:unstructured"
                                                 offset="0"
                                                 width="12"/>
@@ -299,7 +253,6 @@
                                         jcr:description="&lt;p>12.21.20&lt;/p>&#xd;&#xa;&lt;p>You will look at solo guitar playing in a whole new light with guitar player Brawn.&lt;/p>&#xd;&#xa;"
                                         jcr:lastModified="{Date}2020-10-15T12:09:54.142-07:00"
                                         jcr:lastModifiedBy="admin"
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Smooth Guitar"
                                         sling:resourceType="wknd-muzik/components/teaser"
@@ -308,11 +261,8 @@
                                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/Summertime. Young female.png"
                                         textIsRich="true"
                                         titleFromPage="false">
-                                        <cq:responsive
-                                            jcr:mixinTypes="[]"
-                                            jcr:primaryType="nt:unstructured">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
                                             <default
-                                                jcr:mixinTypes="[]"
                                                 jcr:primaryType="nt:unstructured"
                                                 offset="0"
                                                 width="12"/>
@@ -322,7 +272,6 @@
                             </item_1>
                             <item_2
                                 cq:panelTitle="UPCOMING"
-                                jcr:mixinTypes="[]"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Tab 2"
                                 sling:resourceType="wknd-muzik/components/container"
@@ -333,7 +282,6 @@
                                     jcr:createdBy="admin"
                                     jcr:lastModified="{Date}2020-10-15T12:09:54.150-07:00"
                                     jcr:lastModifiedBy="admin"
-                                    jcr:mixinTypes="[]"
                                     jcr:primaryType="nt:unstructured"
                                     sling:resourceType="wknd-muzik/components/container">
                                     <teaser_copy
@@ -343,7 +291,6 @@
                                         jcr:description="&lt;p>10.1.20&lt;/p>&#xd;&#xa;&lt;p>Dance all night long to these fun and funky electronic beats.&lt;/p>&#xd;&#xa;"
                                         jcr:lastModified="{Date}2020-10-15T12:09:54.157-07:00"
                                         jcr:lastModifiedBy="admin"
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Fresh Electronic"
                                         sling:resourceType="wknd-muzik/components/teaser"
@@ -352,11 +299,8 @@
                                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/Summertime. Young female musician.png"
                                         textIsRich="true"
                                         titleFromPage="false">
-                                        <cq:responsive
-                                            jcr:mixinTypes="[]"
-                                            jcr:primaryType="nt:unstructured">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
                                             <default
-                                                jcr:mixinTypes="[]"
                                                 jcr:primaryType="nt:unstructured"
                                                 offset="0"
                                                 width="6"/>
@@ -369,7 +313,6 @@
                                         jcr:description="&lt;p>12.21.20&lt;/p>&#xd;&#xa;&lt;p>Funky soul with ska, what?! This will be unlike any show you’ve ever seen. &lt;/p>&#xd;&#xa;"
                                         jcr:lastModified="{Date}2020-10-15T12:09:54.164-07:00"
                                         jcr:lastModifiedBy="admin"
-                                        jcr:mixinTypes="[]"
                                         jcr:primaryType="nt:unstructured"
                                         jcr:title="Funky Soul"
                                         sling:resourceType="wknd-muzik/components/teaser"
@@ -378,11 +321,8 @@
                                         fileReference="/content/dam/wknd-muzik/en/images/banner-images/Young caucasian musicians.png"
                                         textIsRich="true"
                                         titleFromPage="false">
-                                        <cq:responsive
-                                            jcr:mixinTypes="[]"
-                                            jcr:primaryType="nt:unstructured">
+                                        <cq:responsive jcr:primaryType="nt:unstructured">
                                             <default
-                                                jcr:mixinTypes="[]"
                                                 jcr:primaryType="nt:unstructured"
                                                 offset="0"
                                                 width="6"/>
@@ -397,7 +337,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.169-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="WATCH LAST YEAR'S HIGHTLIGHTS"
                             sling:resourceType="wknd-muzik/components/title"
@@ -408,7 +347,6 @@
                             jcr:createdBy="admin"
                             jcr:lastModified="{Date}2020-10-15T12:09:54.172-07:00"
                             jcr:lastModifiedBy="admin"
-                            jcr:mixinTypes="[]"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd-muzik/components/embed"
                             autoplay="false"
@@ -425,7 +363,6 @@
             </container>
         </root>
         <image
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/image"/>
     </jcr:content>

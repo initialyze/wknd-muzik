@@ -191,7 +191,7 @@
                                         cq:lastRolledoutBy="admin"
                                         jcr:mixinTypes="[cq:LiveRelationship]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser>
@@ -236,7 +236,7 @@
                                         cq:lastRolledoutBy="admin"
                                         jcr:mixinTypes="[cq:LiveRelationship]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_1964341371>
@@ -281,7 +281,7 @@
                                         cq:lastRolledoutBy="admin"
                                         jcr:mixinTypes="[cq:LiveRelationship]"
                                         jcr:primaryType="nt:unstructured"
-                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-in"
+                                        link="/content/wknd-muzik/us/en/home-page/memberships/sign-up"
                                         text="SIGN UP"/>
                                 </actions>
                             </teaser_857221541>

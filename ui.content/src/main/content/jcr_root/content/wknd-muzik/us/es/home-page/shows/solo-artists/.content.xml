@@ -10,31 +10,25 @@
         cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
         cq:translationSourcePath="/content/wknd-muzik/us/en/home-page/shows/solo-artists"
         jcr:description="See your favorite solo artists take stage. We stream 92,724 solo artist shows per year."
-        jcr:mixinTypes="[]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Solo Artists"
         sling:resourceType="wknd-muzik/components/page">
         <root
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                jcr:mixinTypes="[]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container">
                 <title
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/title"/>
                 <container
-                    jcr:mixinTypes="[]"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
                     layout="responsiveGrid"/>
             </container>
         </root>
         <image
-            jcr:mixinTypes="[]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/image"
             fileReference="/content/dam/wknd-muzik/en/images/musician-types/Photo -8.png"/>

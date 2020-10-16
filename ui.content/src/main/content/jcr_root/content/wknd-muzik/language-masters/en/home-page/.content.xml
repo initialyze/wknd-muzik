@@ -102,7 +102,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="SIGN UP FOR MEMBERSHIP!"
                     sling:resourceType="wknd-muzik/components/button"
-                    link="/content/wknd-muzik/language-masters/en/home-page/memberships/sign-in">
+                    link="/content/wknd-muzik/language-masters/en/home-page/memberships/sign-up">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default
                             jcr:primaryType="nt:unstructured"

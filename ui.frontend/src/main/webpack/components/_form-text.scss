@@ -12,6 +12,7 @@
     box-shadow: none;
     border: solid 1px $black;
     border-radius: $border-radius-base;
+    font-weight: $form-text-font-weight;
     color: $black;
     font-size: $p1;
     @extend .space-inset--md;
@@ -22,6 +23,9 @@
     &:focus {
         outline: none;
         border-color: $blue;
+    }
+    &::placeholder {
+        font-weight: $form-text-pholder-font-weight;
     }
     &::-webkit-outer-spin-button,
     &::-webkit-inner-spin-button {

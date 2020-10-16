@@ -4,12 +4,12 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-08T15:27:27.050+05:30"
+        cq:lastModified="{Date}2020-10-16T09:43:30.161-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/page-content"
         jcr:description="See your favorite DJ’s take stage. We stream 112,724 DJ shows per year."
         jcr:primaryType="cq:PageContent"
-        jcr:title="DJs"
+        jcr:title="World Class DJs"
         sling:resourceType="wknd-muzik/components/page">
         <root
             jcr:primaryType="nt:unstructured"

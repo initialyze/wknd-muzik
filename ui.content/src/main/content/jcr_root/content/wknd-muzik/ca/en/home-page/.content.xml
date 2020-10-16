@@ -147,7 +147,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="SIGN UP FOR MEMBERSHIP!"
                     sling:resourceType="wknd-muzik/components/button"
-                    link="/content/wknd-muzik/ca/en/home-page/memberships/sign-in">
+                    link="/content/wknd-muzik/ca/en/home-page/memberships/sign-up">
                     <cq:responsive
                         cq:lastRolledout="{Date}2020-10-15T12:29:11.823-07:00"
                         cq:lastRolledoutBy="admin"

@@ -5,9 +5,9 @@
         cq:conf="/conf/wknd-muzik"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-15T12:14:58.698-07:00"
+        cq:lastModified="{Date}2020-10-16T10:27:05.879-07:00"
         cq:lastModifiedBy="admin"
-        cq:lastRolledout="{Date}2020-10-15T12:14:58.698-07:00"
+        cq:lastRolledout="{Date}2020-10-16T10:27:05.882-07:00"
         cq:lastRolledoutBy="admin"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/home-page"
         jcr:mixinTypes="[cq:LiveRelationship]"
@@ -15,30 +15,36 @@
         jcr:title="BLOG"
         sling:resourceType="wknd-muzik/components/page">
         <root
-            cq:lastRolledout="{Date}2020-10-15T12:14:58.694-07:00"
+            cq:lastRolledout="{Date}2020-10-16T10:27:05.867-07:00"
             cq:lastRolledoutBy="admin"
             jcr:mixinTypes="[cq:LiveRelationship]"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                cq:lastRolledout="{Date}2020-10-15T12:14:58.696-07:00"
+                cq:lastRolledout="{Date}2020-10-16T10:27:05.873-07:00"
                 cq:lastRolledoutBy="admin"
-                jcr:lastModified="{Date}2020-10-15T12:14:58.695-07:00"
+                jcr:lastModified="{Date}2020-10-16T10:27:05.871-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"
                 layout="responsiveGrid"/>
             <container_161607354
-                cq:lastRolledout="{Date}2020-10-15T12:14:58.698-07:00"
+                cq:lastRolledout="{Date}2020-10-16T10:27:05.877-07:00"
                 cq:lastRolledoutBy="admin"
                 jcr:created="{Date}2020-10-07T15:18:36.705+05:30"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2020-10-15T12:14:58.697-07:00"
+                jcr:lastModified="{Date}2020-10-16T10:27:05.875-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:mixinTypes="[cq:LiveRelationship]"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"/>
         </root>
+        <image
+            cq:lastRolledout="{Date}2020-10-16T10:27:05.881-07:00"
+            cq:lastRolledoutBy="admin"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/image"/>
     </jcr:content>
 </jcr:root>

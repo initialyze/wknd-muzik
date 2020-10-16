@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
     <rep:policy/>
@@ -9,6 +9,8 @@
                 <container jcr:primaryType="nt:unstructured">
                     <form-container
                         jcr:description="Allows the form components to be dropped into this form container."
+                        jcr:lastModified="{Date}2020-10-16T10:10:17.143-07:00"
+                        jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="Content Form"
                         sling:resourceType="wcm/core/components/policy/policy"
@@ -234,8 +236,10 @@
             <image jcr:primaryType="nt:unstructured">
                 <policy_651483963895698
                     jcr:description="- Enable lazy loading for faster page loading.&#xd;&#xa;- Define allowed image widths for automatic loading of the image in the most optimal resolution, given the size at which each image is displayed on the page, and the visitor's pixel density.&#xd;&#xa;- Disallow direct asset upload, to force authors to first upload the images to Assets."
+                    jcr:lastModified="{Date}2020-10-16T10:20:36.921-07:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Content Image"
+                    jcr:title="Default - Content"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedRenditionWidths="[320,480,600,800,1024,1200,1600]"
                     allowUpload="false"
@@ -280,17 +284,17 @@
                 </policy_651483963895698>
                 <policy_111105356030200
                     cq:styleDefaultClasses="cmp-image"
-                    jcr:lastModified="{Date}2020-10-09T16:52:12.020+05:30"
+                    jcr:lastModified="{Date}2020-10-16T10:20:30.254-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Default"
+                    jcr:title="XF - Default"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowUpload="true"
                     altValueFromDAM="true"
                     disableLazyLoading="true"
                     displayPopupTitle="true"
                     isDecorative="false"
-                    jpegQuality="{Long}0"
+                    jpegQuality="{Long}100"
                     titleValueFromDAM="true"
                     uuidDisabled="true">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
@@ -341,10 +345,10 @@
             </image>
             <text jcr:primaryType="nt:unstructured">
                 <policy_641562756958017
-                    jcr:lastModified="{Date}2020-10-12T18:19:50.182+05:30"
+                    jcr:lastModified="{Date}2020-10-16T10:14:18.759-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Content Text"
+                    jcr:title="Default"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <rtePlugins jcr:primaryType="nt:unstructured">
@@ -792,13 +796,13 @@
                 <policy_1574695586800
                     cq:styleDefaultElement="main"
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2020-10-15T14:43:57.488+05:30"
+                    jcr:lastModified="{Date}2020-10-16T10:22:23.007-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Homepage - Main Body Container"
                     sling:resourceType="wcm/core/components/policy/policy"
                     columns="12"
-                    components="[/apps/wknd-muzik/components/breadcrumb,/apps/wknd-muzik/components/button,/apps/wknd-muzik/components/carousel,/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/embed,/apps/wknd-muzik/components/experiencefragment,/apps/wknd-muzik/components/helloworld,/apps/wknd-muzik/components/image,/apps/wknd-muzik/components/list,/apps/wknd-muzik/components/separator,/apps/wknd-muzik/components/tabs,/apps/wknd-muzik/components/teaser,/apps/wknd-muzik/components/text,/apps/wknd-muzik/components/title,/apps/wknd-muzik/components/form/container,/apps/wknd-muzik/components/search]"
+                    components="[/apps/wknd-muzik/components/breadcrumb,/apps/wknd-muzik/components/button,/apps/wknd-muzik/components/carousel,/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/embed,/apps/wknd-muzik/components/image,/apps/wknd-muzik/components/list,/apps/wknd-muzik/components/separator,/apps/wknd-muzik/components/tabs,/apps/wknd-muzik/components/teaser,/apps/wknd-muzik/components/text,/apps/wknd-muzik/components/title,/apps/wknd-muzik/components/search]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -880,14 +884,32 @@
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_792741977742500>
                 <policy_1602165612188
-                    jcr:lastModified="{Date}2020-10-08T19:31:37.435+05:30"
+                    jcr:lastModified="{Date}2020-10-16T10:12:34.171-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="WKND Muzik Form Page"
+                    jcr:title="Main Body - Form Page "
                     sling:resourceType="wcm/core/components/policy/policy"
                     components="[/apps/wknd-muzik/components/container,/apps/wknd-muzik/components/title,group:WKND Muzik - Form]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0
+                            cq:styleGroupLabel="Space - Stack"
+                            jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="space-stack--lg"
+                                    cq:styleId="1602867961312"
+                                    cq:styleLabel="Space - Stack - LG"
+                                    jcr:primaryType="nt:unstructured"/>
+                                <item1
+                                    cq:styleClasses="space-stack--xl"
+                                    cq:styleId="1602867997126"
+                                    cq:styleLabel="Space - Stack - XL"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
                 </policy_1602165612188>
                 <policy_5803887584760
                     jcr:lastModified="{Date}2020-10-15T14:39:17.698+05:30"
@@ -1190,10 +1212,10 @@
                     </cq:styleGroups>
                 </policy_10392937983346>
                 <policy_31981987607519
-                    jcr:lastModified="{Date}2020-10-15T14:29:22.733+05:30"
+                    jcr:lastModified="{Date}2020-10-16T10:15:26.488-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Main Content - Teaser"
+                    jcr:title="Default"
                     sling:resourceType="wcm/core/components/policy/policy"
                     titleLinkHidden="true"
                     titleType="h3">

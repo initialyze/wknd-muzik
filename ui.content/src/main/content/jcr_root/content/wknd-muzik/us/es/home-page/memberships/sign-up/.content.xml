@@ -2,26 +2,26 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2020-10-15T12:19:01.107-07:00"
+        cq:lastModified="{Date}2020-10-15T12:12:14.844-07:00"
         cq:lastModifiedBy="translation-job-service"
-        cq:lastTranslationUpdate="{Date}2020-10-15T12:19:01.107-07:00"
+        cq:lastTranslationUpdate="{Date}2020-10-15T12:12:14.844-07:00"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/form-page"
-        cq:translationSourcePath="/content/wknd-muzik/language-masters/en/home-page/memberships/sign-in"
+        cq:translationSourcePath="/content/wknd-muzik/us/en/home-page/memberships/sign-up"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Sign in"
+        jcr:title="Sign Up"
         sling:resourceType="wknd-muzik/components/page">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd-muzik/components/container">
             <container
-                jcr:lastModified="{Date}2020-10-12T18:30:12.655+05:30"
+                jcr:lastModified="{Date}2020-10-15T12:09:54.251-07:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"
                 layout="responsiveGrid">
                 <title
                     cq:styleIds="[1602248337054,1602250120123,1602578596744]"
-                    jcr:lastModified="{Date}2020-10-09T13:07:02.975+05:30"
+                    jcr:lastModified="{Date}2020-10-15T12:09:54.259-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="MEMBERSHIP SIGN UP"
@@ -35,7 +35,7 @@
                     </cq:responsive>
                 </title>
                 <container
-                    jcr:lastModified="{Date}2020-10-10T14:48:41.873+05:30"
+                    jcr:lastModified="{Date}2020-10-15T12:09:54.263-07:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="wknd-muzik/components/container"
@@ -43,13 +43,13 @@
                     <container
                         jcr:created="{Date}2020-10-09T12:37:50.831+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2020-10-14T21:32:43.967+05:30"
+                        jcr:lastModified="{Date}2020-10-15T12:09:54.267-07:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="wknd-muzik/components/form/container"
-                        action="/content/usergenerated/wknd-muzik/language-masters/en/home-page/memberships/sign-in/cq-gen1602227270853/"
+                        action="/content/usergenerated/wknd-muzik/language-masters/en/home-page/memberships/sign-up/cq-gen1602227270853/"
                         actionType="commerce/components/actions/submitorder"
-                        redirect="/content/wknd-muzik/language-masters/fr/home-page/memberships/sign-in/confirmation">
+                        redirect="/content/wknd-muzik/us/es/home-page/memberships/sign-up/confirmation">
                         <cq:responsive jcr:primaryType="nt:unstructured">
                             <default
                                 jcr:primaryType="nt:unstructured"
@@ -59,7 +59,7 @@
                         <container_1805645772
                             jcr:created="{Date}2020-10-13T22:13:46.959+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2020-10-13T22:13:46.959+05:30"
+                            jcr:lastModified="{Date}2020-10-15T12:09:54.279-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="wknd-muzik/components/container">
@@ -73,7 +73,7 @@
                                 cq:styleIds="[1602600697005]"
                                 jcr:created="{Date}2020-10-09T12:38:57.838+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-14T17:56:20.717+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.299-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="MEMBERSHIP"
@@ -110,7 +110,7 @@
                                 cq:styleIds="[1602551900299]"
                                 jcr:created="{Date}2020-10-09T12:50:15.440+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-09T12:50:52.586+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.318-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="CONTACT"
@@ -119,7 +119,7 @@
                             <text
                                 jcr:created="{Date}2020-10-09T12:51:00.003+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-15T22:49:42.072+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.321-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Name"
@@ -145,7 +145,7 @@
                             <text_80417256
                                 jcr:created="{Date}2020-10-09T12:51:09.081+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-15T23:28:19.223+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.328-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Email"
@@ -173,7 +173,7 @@
                                 cq:styleIds="[1602600866504]"
                                 jcr:created="{Date}2020-10-09T12:51:25.576+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-15T23:28:52.471+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.335-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Phone-no"
@@ -200,7 +200,7 @@
                             <options_402413829
                                 jcr:created="{Date}2020-10-09T12:44:54.085+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-09T12:48:50.130+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.343-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="PAYMENT"
@@ -241,7 +241,7 @@
                                 cq:styleIds="[1602600866504]"
                                 jcr:created="{Date}2020-10-09T13:01:14.248+05:30"
                                 jcr:createdBy="admin"
-                                jcr:lastModified="{Date}2020-10-15T23:29:47.711+05:30"
+                                jcr:lastModified="{Date}2020-10-15T12:09:54.366-07:00"
                                 jcr:lastModifiedBy="admin"
                                 jcr:primaryType="nt:unstructured"
                                 jcr:title="Card Number"
@@ -267,7 +267,7 @@
                             cq:styleIds="[1602321338881,1602321431675,1602579689892]"
                             jcr:created="{Date}2020-10-09T12:58:51.261+05:30"
                             jcr:createdBy="admin"
-                            jcr:lastModified="{Date}2020-10-09T12:59:25.171+05:30"
+                            jcr:lastModified="{Date}2020-10-15T12:09:54.372-07:00"
                             jcr:lastModifiedBy="admin"
                             jcr:primaryType="nt:unstructured"
                             jcr:title="SUBMIT"

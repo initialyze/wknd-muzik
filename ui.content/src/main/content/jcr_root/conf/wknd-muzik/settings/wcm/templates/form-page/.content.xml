@@ -2,7 +2,7 @@
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2020-10-09T15:31:35.416-07:00"
+        cq:lastModified="{Date}2020-10-16T10:12:34.177-07:00"
         cq:lastModifiedBy="admin"
         cq:templateType="/conf/wknd-muzik/settings/wcm/template-types/empty-page"
         jcr:primaryType="cq:PageContent"

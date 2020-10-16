@@ -5,7 +5,7 @@
         cq:conf="/conf/wknd-muzik"
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2020-10-07T16:11:01.975+05:30"
+        cq:lastModified="{Date}2020-10-16T09:27:26.836-07:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd-muzik/settings/wcm/templates/home-page"
         jcr:primaryType="cq:PageContent"
@@ -28,5 +28,8 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd-muzik/components/container"/>
         </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wknd-muzik/components/image"/>
     </jcr:content>
 </jcr:root>
